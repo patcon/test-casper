@@ -1,3 +1,7 @@
+This repo only exists to test out and share concepts for this Gittip
+issue:
+https://github.com/gittip/roobot/issues/11
+
 ## Requirements
 
 * python 2.6+
