@@ -1,0 +1,15 @@
+{
+  "name": "test-casper",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "casperjs": "^1.1.0-beta3"
+  }
+}
