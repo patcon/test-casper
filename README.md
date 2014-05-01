@@ -14,13 +14,12 @@ https://github.com/gittip/roobot/issues/11
 
 ## Notes
 
-* Script only logs in and takes a snapshot, `image.png`, which it drops
-  in the project root. It's a proof-of-concept for using casperjs to
-login and navigate to start a G+ Hangout.
+* Script only logs in and takes a snapshot, but is not yet clicking the
+  hangout button and getting a dialog to show.
 * Parsing G+ will get stuck in an iframe for like 200s before loading
   the page after login completes (prior to snapshot). This issue is
 discussed [here][iframe-boobietrap]. I suspect it's an intentional trick
-by Google to discourage scraping.
+by Google to discourage scraping. (This seems to have gone away...)
 
 <!-- Links -->
    [iframe-boobietrap]: https://groups.google.com/forum/#!topic/casperjs/h63dOPDkL-w
